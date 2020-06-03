@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Display Flex</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="header-wraper">
+	<header class="header-wraper1">
+		<div class="container header-wraper">
+			<!-- <div class="header-wraper"> -->
 				<a href="index.html">
 					<img src="img/logo.svg" alt="logo">
 				</a>
+				<nav class="navigation">
+					<ul class="nav-ul">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
 				<div class="social-icons">
-					<div>
+					<div class="social">
 						<i class="fab fa-google-plus-g social-google"></i>
 					</div>
-					<div>
+					<div class="social">
+						<i class="fab fa-google-plus-g social-google"></i>
+					</div>
+					<div class="social active" >
 						<i class="fab fa-facebook-f social-fb"></i>
 					</div>
+					<div class="burger-bar">
+						<i class="fas fa-bars burger-icon"></i>
+					</div>
 				</div>
-			</div>
+			<!-- </div> -->
 		</div>
 	</header>
 	<section class="blue-bg">
@@ -63,8 +84,24 @@
 				</div>
 			</div>
 		</div>
-
-
+	</section>
+	<section>
+		<div class="container">
+			<div class="images-wraper">
+				<div class="images">
+					<img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg" alt="image">
+				</div>
+				<div class="images">
+					<img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg" alt="image">
+				</div>
+				<div class="images">
+					<img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg" alt="image">
+				</div>
+				<div class="images">
+					<img src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg" alt="image">
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<script src="https://kit.fontawesome.com/e66617d67f.js" crossorigin="anonymous"></script>
