@@ -3,6 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Our Description">
+  	<meta name="keywords" content="HTML,CSS,Responsive, Form">
+  	<meta name="author" content="kristina">
+  	<meta name="google" content="notranslate" />
 	<title>Display Flex</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -102,6 +106,68 @@
 				</div>
 			</div>
 		</div>
+	</section>
+	<section class="form-section">
+		<form class="form-wraper">
+			<div class="form-group">
+				<label class="" for="fname">First Name</label>
+				<input class="form-input focus-form" type="text" name="firstname" id="fname" placeholder="Your Name..." required>
+			</div>
+			<div class="form-group">
+				<label for="myemail">E-mail</label>
+				<input class="form-input focus-form" type="email" name="e-mail" id="myemail" placeholder="Your Email..." required>
+			</div>
+			<div class="form-group">	
+				<label for="password">Password</label>
+				<input class="form-input focus-form" type="Password" name="mypassword" id="password" placeholder="Your Password..." required>
+			</div>
+			<div class="form-group">
+				<label>Your Reviews</label>
+				<textarea class="form-textarea focus-form" name="review" placeholder="Your Review..."></textarea>
+			</div>
+			<div class="form-group">
+			  <label for="cars">Choose a car:</label>
+			  <select id="cars" name="cars">
+			    <option value="volvo">Volvo</option>
+			    <option value="saab">Saab</option>
+			    <option value="fiat">Fiat</option>
+			    <option value="audi">Audi</option>
+			  </select>
+			</div>
+			<div class="form-group">
+				<div>
+					<input type="radio" name="gender" id="male">
+					<label> Male </label>
+				</div>
+				<div>
+					<input type="radio" name="gender" id="female">
+					<label> FeMale </label>
+				</div>
+				<div>
+					<input type="radio" name="gender" id="other">
+					<label> Other </label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div>
+					<input type="checkbox" name="tea" id="male">
+					<label> Tea </label>
+				</div>
+				<div>
+					<input type="checkbox" name="coffee" id="female">
+					<label> Coffee </label>
+				</div>
+				<div>
+					<input type="checkbox" name="cola" id="other">
+					<label> Coca-Cola </label>
+				</div>
+			</div>
+
+			<div class="btn-wraper">
+				<button class="btn" type="submit">Send </button>
+			</div>
+		</form>
 	</section>
 
 	<script src="https://kit.fontawesome.com/e66617d67f.js" crossorigin="anonymous"></script>

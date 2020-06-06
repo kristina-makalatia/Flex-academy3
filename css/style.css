@@ -140,7 +140,63 @@
 	display: -ms-flexbox;
 	display: flex;
 }
+.video-box:hover{
+	background-color: red;
 
+}
 
-/*Responsive*/
+/*Form*/
+.form-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*input {
+	width: 100%;
+}
+*/
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+.form-wraper {
+	width: 600px;
+	margin: 0 auto;
+}
+.form-input {
+	margin-top: 15px;
+	height: 50px;
+	color:red;
+	text-transform: uppercase;
+}
+.focus-form::placeholder {
+	color: aqua;
+	padding-left: 15px;
+	text-transform: lowercase;
 
+}
+.focus-form:focus {
+	outline: none;
+}
+.btn {
+	background-color: yellow;
+	color: green;
+	font-size: 18px;
+	border: none;
+	padding: 15px;
+}
+.btn-wraper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.form-textarea {
+	resize: none;
+	height: 300px;
+}
+/*input[type=text] {
+	background-color: red;
+}
+input[type=password] {
+	background-color: yellow;
+}*/
